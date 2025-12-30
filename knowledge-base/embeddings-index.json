@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "dimension": 768,
+  "count": 920,
+  "index_type": "flat",
+  "note": "Embeddings generated on model load"
+}

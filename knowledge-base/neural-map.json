@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "created": "2025-12-30T13:34:02.505461",
+  "nodes": [
+    {
+      "id": "domain-science",
+      "type": "domain",
+      "label": "Science",
+      "count": 40
+    },
+    {
+      "id": "domain-technology",
+      "type": "domain",
+      "label": "Technology",
+      "count": 50
+    },
+    {
+      "id": "domain-literature",
+      "type": "domain",
+      "label": "Literature",
+      "count": 500
+    },
+    {
+      "id": "domain-research",
+      "type": "domain",
+      "label": "Academic Research",
+      "count": 310
+    },
+    {
+      "id": "domain-language",
+      "type": "domain",
+      "label": "Language",
+      "count": 20
+    },
+    {
+      "id": "concept-ai",
+      "type": "concept",
+      "label": "Artificial Intelligence"
+    },
+    {
+      "id": "concept-ml",
+      "type": "concept",
+      "label": "Machine Learning"
+    },
+    {
+      "id": "concept-data",
+      "type": "concept",
+      "label": "Data Science"
+    }
+  ],
+  "connections": [
+    {
+      "source": "domain-science",
+      "target": "domain-technology",
+      "weight": 0.9
+    },
+    {
+      "source": "domain-technology",
+      "target": "domain-research",
+      "weight": 0.85
+    },
+    {
+      "source": "concept-ai",
+      "target": "concept-ml",
+      "weight": 0.95
+    }
+  ]
+}
